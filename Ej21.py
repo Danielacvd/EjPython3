@@ -1,5 +1,5 @@
 # Ejercicio 21: Generar los n primeros números pares positivos.
-#Try2
+#Try3
 
 #Try1
 def pares(n):
@@ -20,3 +20,17 @@ for i in range(1,numero+1):
         print(i)
 else:
     print("Fin ciclo for")        
+#Try3
+#Esto tenia que estar arriba
+from random import randint
+
+n = randint(1, 1000)
+print(n)
+
+u = 1
+while u <= n:
+    if u % 2 == 0:
+        print(u)
+    u += 1    
+else:
+    print("Fin Solucion 3")        
