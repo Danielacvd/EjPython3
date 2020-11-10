@@ -19,7 +19,9 @@ for i in range(1,numero+1):
     if i % 2 == 0:
         print(i)
 else:
-    print("Fin ciclo for")        
+    print("Fin ciclo for")       
+
+         
 #Try3
 #Esto tenia que estar arriba
 from random import randint
