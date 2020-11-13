@@ -8,4 +8,15 @@ while i <= 100:
         print(i)
     i += 1
 else:
-    print("Estos son los primeros 100 numeros pares")         
+    print("Estos son los primeros 100 numeros pares")      
+
+
+#Try2
+def es_par(num):
+    if num % 2 == 0:
+        print(num)
+
+for i in range(1, 101):
+    es_par(i)
+else:
+    print('Fin cliclo For, Try2')    
